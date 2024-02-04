@@ -59,16 +59,17 @@
                     </execution>
                 </executions>
             </plugin>
+             <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.12.1</version>
+</plugin>
         </plugins>
     </build>
   <dependencies>
    
-    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-<dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.12.1</version>
-</dependency>
+   
 
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
@@ -103,10 +104,6 @@
     <version>2.16.1</version>
 </dependency>
 
-  	<dependency>
-  		<groupId>org.example</groupId>
-  		<artifactId>Selenium</artifactId>
-  		<version>1.0-SNAPSHOT</version>
-  	</dependency>
+  	
   </dependencies>
 </project>
